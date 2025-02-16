@@ -18,7 +18,7 @@ app.use('/integration', (req: Request, res: Response, next: NextFunction) => {
                 app_logo: "https://play-lh.googleusercontent.com/KierIVfm1zxqKpytzHcvK7Fxaox56OoZrj6rB_kbPXJr--oQgUZK_6uUCX1g8VEbE6lu",
                 background_color: "#fff"
             },
-            key_features: "Monitoring",
+            key_features: ["Monitoring"],
             integration_category: "interval",
             integration_type: "interval",
             settings: [
