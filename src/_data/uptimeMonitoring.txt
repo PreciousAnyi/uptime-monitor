@@ -1,0 +1,19 @@
+
+{
+    data: {
+        descriptions: {
+            app_name: "Uptime Monitor",
+            app_description: "Monitors website uptime",
+            app_url: baseUrl,
+            app_logo: "https://i.imgur.com/lZqvffp.png",
+            background_color: "#fff"
+        },
+        integration_type: "interval",
+        settings: [
+            { label: "site-1", type: "text", required: true, default: "" },
+            { label: "site-2", type: "text", required: true, default: "" },
+            { label: "interval", type: "text", required: true, default: "* * * * *" }
+        ],
+        tick_url: `${baseUrl}/tick`
+    }
+}
