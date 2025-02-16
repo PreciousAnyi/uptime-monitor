@@ -27,7 +27,7 @@ app.use('/integration', (req: Request, res: Response, next: NextFunction) => {
                 { label: "interval", type: "text", required: true, default: "* * * * *" },
             ],
             tick_url: `${baseUrl}/tick`,
-            target_url: "https://ping.telex.im/v1/webhooks/019506e5-4c43-756a-ab1f-06ab1d4ac61b"
+            target_url: "https://ping.telex.im/v1/webhooks/01950eda-a971-7ab7-a311-748e95abd32a"
         }
     }
     res.json(data)
